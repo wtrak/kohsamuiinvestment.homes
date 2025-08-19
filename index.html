@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Koh Samui Investment Homes • Data-Led Opportunities</title>
-  <meta name="description" content="Invest in Koh Samui property: villas, apartments, and resort residences with rental programs. Get matched to vetted opportunities based on your budget and timeline." />
+  <title>Koh Samui Investment Homes • Smart Property Opportunities</title>
+  <meta name="description" content="Invest in Koh Samui homes: villas, apartments, and resort residences. Rental yields, safe ownership structures, and private matching to vetted options." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://kohsamuiinvestment.homes/" />
+  <link rel="preconnect" href="https://kohsamui.investments">
+  <link rel="dns-prefetch" href="https://kohsamui.investments">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Koh Samui Investment Homes • Data-Led Opportunities" />
-  <meta property="og:description" content="See why investors are choosing Koh Samui. Learn about yields, areas, and safe ownership routes—then get matched privately." />
+  <meta property="og:title" content="Koh Samui Investment Homes • Smart Property Opportunities" />
+  <meta property="og:description" content="Luxury villas & resort residences in Koh Samui with yields, foreign ownership clarity, and vetted developer opportunities." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1600&auto=format&fit=crop" />
   <meta property="og:url" content="https://kohsamuiinvestment.homes" />
@@ -34,15 +36,15 @@
     }
     .overlay{ position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.8)) }
     .card{
-      position:relative; z-index:2; max-width:800px; margin:0 18px; padding:34px 30px;
+      position:relative; z-index:2; max-width:820px; margin:0 18px; padding:36px 30px;
       border-radius:16px; background:var(--glass); backdrop-filter:saturate(140%) blur(10px);
       border:1px solid rgba(255,255,255,.15)
     }
-    h1{ margin:0 0 12px; font-weight:800; letter-spacing:.2px }
+    h1{ margin:0 0 14px; font-weight:800; letter-spacing:.2px }
     p{ margin:0 0 14px; line-height:1.6 }
-    .bullets{ display:grid; gap:8px; margin:8px 0 18px; text-align:left; opacity:.95 }
+    .bullets{ display:grid; gap:10px; margin:10px 0 20px; text-align:left; opacity:.95 }
     .bullets div{ display:flex; gap:10px; align-items:flex-start }
-    .dot{ width:8px; height:8px; margin-top:8px; border-radius:50%; background:#a7f3d0; flex:0 0 8px }
+    .dot{ width:8px; height:8px; margin-top:8px; border-radius:50%; background:#6ee7b7; flex:0 0 8px }
     .cta{
       display:inline-flex; align-items:center; gap:10px; padding:14px 20px; border-radius:12px;
       background:var(--accent); color:#fff; text-decoration:none; font-weight:700;
@@ -65,24 +67,49 @@
     <div class="badge">KohSamuiInvestment<span style="opacity:.7">.homes</span></div>
 
     <div class="card" role="region" aria-label="Koh Samui investment homes intro">
-      <h1>Invest in Koh Samui Homes</h1>
-      <p>Luxury villas, apartments, and resort residences on Thailand’s most desirable island. Use it when you want; let it earn when you’re away with professional management.</p>
+      <h1>Koh Samui Investment Properties</h1>
+      <p>Luxury villas, apartments, and branded residences on Thailand’s fastest-growing island. Use it when you want; let it earn while you’re away with rental programs.</p>
       <div class="bullets">
-        <div><span class="dot"></span><span>Prime areas like Bophut, Chaweng Noi, Lamai — each with distinct rental and appreciation profiles.</span></div>
-        <div><span class="dot"></span><span>Clear ownership routes for foreign buyers (condo freehold, structured villa control with reputable counsel).</span></div>
-        <div><span class="dot"></span><span>Private matching: tell us budget &amp; timeline — we shortlist vetted options aligned to your goals.</span></div>
+        <div><span class="dot"></span><span>Prime areas: Bophut, Chaweng Noi, Lamai — distinct yield & appreciation profiles.</span></div>
+        <div><span class="dot"></span><span>Safe ownership: condo freehold & structured villa setups with reputable counsel.</span></div>
+        <div><span class="dot"></span><span>Private matching: share budget & goals — we shortlist vetted, data-backed options.</span></div>
       </div>
       <a class="cta" href="https://kohsamui.investments/?utm_source=kohsamuiinvestment.homes&utm_medium=referral&utm_campaign=cta">
-        Learn more &nbsp;→
+        View vetted opportunities &nbsp;→
       </a>
+      <p style="font-size:13px;opacity:.85;margin-top:10px">Private intake • No spam • Data-led process</p>
+
+      <p style="margin-top:10px">
+        <a class="cta" style="background:transparent;border-color:rgba(255,255,255,.35)"
+           href="https://kohsamui.investments/guide.html?utm_source=kohsamuiinvestment.homes&utm_medium=referral&utm_campaign=soft">
+          Preview investment guide &nbsp;→
+        </a>
+      </p>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function(){
+          const cta = document.querySelector('.cta');
+          if(!cta) return;
+          cta.addEventListener('click', function(){
+            try {
+              gtag('event', 'cta_click', {
+                event_category: 'engagement',
+                event_label: 'kohsamuiinvestment.homes_primary',
+                value: 1
+              });
+            } catch(e){}
+          });
+        });
+      </script>
     </div>
 
     <div class="foot">
-  Private intake • No spam • HTTPS secure
-  <div style="font-size:11px;opacity:.6;margin-top:4px">
-    <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
-    <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      Private intake • No spam • HTTPS secure
+      <div style="font-size:11px;opacity:.6;margin-top:4px">
+        <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
+        <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      </div>
+    </div>
   </div>
-</div>
 </body>
 </html>
